@@ -1,2 +1,2 @@
 # JaumeBalmes
-Repositori per Jaume Balmes
+Repositori per Jaume Valmes

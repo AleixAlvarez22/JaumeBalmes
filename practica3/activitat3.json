@@ -1,0 +1,30 @@
+{
+    "bookstore": {
+        "book":[{
+        "tittle": "Magic",
+        "publisher": "Raul",
+        "cover": "Dura",
+        "price": 10
+        },
+        {
+        "tittle": "Harry Potter",
+        "publisher": "Pablo",
+        "cover": "Dura",
+        "price": 15
+        },
+        {
+        "tittle": "Las mejores poesias del siglo XVI",
+        "publisher": "Sebastian",
+        "cover": "Tova",
+        "price": 20
+        },
+        {
+        "tittle": "StarWars",
+        "publisher": "Gorges Lukas",
+        "cover": "Tova",
+        "price": 18
+        }
+    ]
+
+    }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encodign="UTF-8"?>
+
+<students>
+    <student>
+        <name>Aleix</name>
+        <surname>Alvarez</surname>
+        <email>aalvarez22@jaumebalmes.net</email>
+        <dni>21778592f</dni>
+    </student>
+    <student>
+        <name>Pablo</name>
+        <surname>Rosado</surname>
+        <email>prosado22@jaumebalmes.net</email>
+        <dni>21784358t</dni>
+    </student>
+        <student>
+        <name>Joan</name>
+        <surname>Gago</surname>
+        <email>jgago22@jaumebalmes.net</email>
+        <dni>215574932w</dni>
+    </student>
+        <student>
+        <name>Edgar</name>
+        <surname>Romero</surname>
+        <email>eromero22@jaumebalmes.net</email>
+        <dni>217449364a</dni>
+    </student>
+        <student>
+        <name>Carlos</name>
+        <surname>Sanchez</surname>
+        <email>csanchez22@jaumebalmes.net</email>
+        <dni>21673910p</dni>
+    </student>
+</students>
+

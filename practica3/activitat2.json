@@ -1,0 +1,40 @@
+{"students":{
+        "student":[{
+            "pais":"España",
+            "name":"Aleix",
+            "surname":"Alvarez",
+            "email":"aalvarez22@jaumebalmes.net",
+            "dni":"21778592f"
+        },
+        {
+            "pais":"Argentina",
+            "name":"Pablo",
+            "surname":"Rosado",
+            "email":"prosado22@jaumebalmes.net",
+            "dni":"21784358t"
+        },
+        {
+            "pais":"Paris",
+            "name":"Joan",
+            "surname":"Gago",
+            "email":"jgago22@jaumebalmes.net",
+            "dni":"215574932w"
+        },
+        {
+            "pais":"Berlin",
+            "name":"Edgar",
+            "surname":"Romero",
+            "email":"eromero22@jaumebalmes.net",
+            "dni":"217449364a"
+        },
+        {
+            "pais":"Rusia",
+            "name":"Carlos",
+            "surname":"Sanchez",
+            "email":"csanchez22@jaumebalmes.net",
+            "dni":"21673910p"
+        }
+
+
+        ]
+    }}

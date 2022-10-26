@@ -1,31 +1,31 @@
 <?xml version="1.0" encodign="UTF-8"?>
 
 <students>
-    <student>
+    <student pais = "España">
         <name>Aleix</name>
         <surname>Alvarez</surname>
         <email>aalvarez22@jaumebalmes.net</email>
         <dni>21778592f</dni>
     </student>
-    <student>
+    <student pais = "Argentina">
         <name>Pablo</name>
         <surname>Rosado</surname>
         <email>prosado22@jaumebalmes.net</email>
         <dni>21784358t</dni>
     </student>
-        <student>
+        <student pais = "Paris">
         <name>Joan</name>
         <surname>Gago</surname>
         <email>jgago22@jaumebalmes.net</email>
         <dni>215574932w</dni>
     </student>
-        <student>
+        <student pais = "Berlin">
         <name>Edgar</name>
         <surname>Romero</surname>
         <email>eromero22@jaumebalmes.net</email>
         <dni>217449364a</dni>
     </student>
-        <student>
+        <student pais = "Rusia">
         <name>Carlos</name>
         <surname>Sanchez</surname>
         <email>csanchez22@jaumebalmes.net</email>

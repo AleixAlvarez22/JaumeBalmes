@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Aquest codi conté la informació dels llibres d'una llibreria-->
+
+<!--Root-->
+<bookstore>
+    <book><!--Obrim informació del llibre-->
+        <title>Magic</title><!--Títol del llibre-->
+        <publisher>Raul</publisher><!--Autor del llibre-->
+        <cover>Dura</cover><!--Tipus de tapa del llibre-->
+        <price>10</price><!--Preu del llibre-->
+    </book><!--Tancament-->
+
+    <book>
+        <title>Harry Potter</title>
+        <publisher>Pablo</publisher>
+        <cover>Dura</cover>
+        <price>15</price>
+    </book>
+
+    <book>
+        <title>Las mejores poesias del siglo XVI</title>
+        <publisher>Sebastian</publisher>
+        <cover>Tova</cover>
+        <price>20</price>
+    </book>
+
+    <book>
+        <title>StarWars</title>
+        <publisher>Gorges Lukas</publisher>
+        <cover>Tova</cover>
+        <price>18</price>
+    </book>
+</bookstore>

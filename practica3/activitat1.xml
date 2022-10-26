@@ -1,31 +1,38 @@
-<?xml version="1.0" encodign="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
+<!--Aquest codi conté la informació d'uns alumnes-->
+
+<!--Root-->
 <students>
-    <student pais = "España">
-        <name>Aleix</name>
+    <student pais = "España"><!--Començem amb el país de l'estudiant-->
+        <name>Aleix</name><!--Informació principal de l'estudiant-->
         <surname>Alvarez</surname>
-        <email>aalvarez22@jaumebalmes.net</email>
-        <dni>21778592f</dni>
-    </student>
+        <email>aalvarez22@jaumebalmes.net</email><!--Correu electronic de l'estudiant-->
+        <dni>21778592f</dni><!--DNI de l'estudiant-->
+    </student><!--Tancament-->
+
     <student pais = "Argentina">
         <name>Pablo</name>
         <surname>Rosado</surname>
         <email>prosado22@jaumebalmes.net</email>
         <dni>21784358t</dni>
     </student>
-        <student pais = "Paris">
+
+    <student pais = "Paris">
         <name>Joan</name>
         <surname>Gago</surname>
         <email>jgago22@jaumebalmes.net</email>
         <dni>215574932w</dni>
     </student>
-        <student pais = "Berlin">
+
+    <student pais = "Berlin">
         <name>Edgar</name>
         <surname>Romero</surname>
         <email>eromero22@jaumebalmes.net</email>
         <dni>217449364a</dni>
     </student>
-        <student pais = "Rusia">
+    
+    <student pais = "Rusia">
         <name>Carlos</name>
         <surname>Sanchez</surname>
         <email>csanchez22@jaumebalmes.net</email>

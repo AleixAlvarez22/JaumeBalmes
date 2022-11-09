@@ -1,0 +1,16 @@
+
+table, th, td { /*Obrim on volem actuar*/
+    border: 0.5px solid black; /*Afegim l'amplada de la vora i el color*/
+    border-collapse: collapse;/*Tipus de vora que utilitzarem*/   
+  }
+th {
+    background-color:silver;/*Selecionem el color de fons de Capçalera*/
+}
+caption {
+    color: blue; /*Canviem el color del text*/
+    position: relative; /*Afegim aixo per editar la posició del text*/
+    bottom: 7px;/*Afegim cap a on afegirem distancia i la quantitat*/
+}
+td {
+    padding: 5px;/*Afegim aixo per moure el text cap a dins*/
+  }

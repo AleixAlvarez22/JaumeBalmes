@@ -1,0 +1,25 @@
+table, th, td {
+  border: 2px solid black; /* Afageix una bora de 2 pixels i que sigui de color negre*/
+  border-collapse: collapse; /* Es el tipus de bora */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Li posa una font a les lletres */
+  margin: 0 auto; /* Li posa un marge i fa que es centri */
+  
+}
+td{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th, td {
+    text-align: center; /* Alinea el text al centre */
+  }
+
+th{
+    background-color: burlywood; /* Color al les capçeleres de la taula */
+    width: 300px; /* Posa una amplada a la taula  */
+}
+caption{
+    position: relative;  
+    margin-bottom: 30px; /* Espai que te el separa amb la part de sota */
+    margin-top: 5px; /* Espai que te el separa amb la part de dalt */
+    font-size: 30px; /* Mida de les lletres */
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html><!--Aquest codi crea un formulari sobre una inscripció a un cicle formatiu-->
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Pablo Rosado Rodríguez-Martos</title>
+    </head>
+    <body>
+
+        <form> <!--Amb aquest element definim un formulari-->
+        <label>Nom</label><!--Aquest element defineix una etiqueta per varis elements d'un formulari-->
+        <input type="text"><br><br><!--Aquest element permet al usuari escriure informació-->
+
+        <label>Cognom</label>
+        <input type="text"><br><br>
+
+        <label>Edat</label>
+        <input type="number"><br><br>
+
+        <p>Cicle formatiu que es vol cursar l'any vinent:</p>
+
+        <label>DAM</label>
+        <input type="radio" checked name="1"><br><!--Aquest element crea una botonera d'estil radio i amb checked fem que DAM surti
+        com predeterminat-->
+
+        <label>ASIX</label>
+        <input type="radio" name="1"><br><!--Amb name donem el mateix valor a les 3 opcions per que només hi hagi una opció seleccionada-->
+
+        <label>Altre...</label>
+        <input type="radio" name="1"><br><br>
+        
+        <p>Marca les teves aficions:</p>
+
+        <label>Estudiar</label>
+        <input type="checkbox" checked><br><!--Aquest element crea una casella de selecció--> 
+
+        <label>ASIX</label>
+        <input type="checkbox"><br>
+
+        <label>Llibres</label>
+        <input type="checkbox"><br>
+
+        <label>Jugar a Magic</label>
+        <input type="checkbox"><br>
+
+        <label>Fer burilles</label>
+        <input type="checkbox"><br>
+
+        <label>Altres</label>
+        <textarea rows="10" cols="50">Especifica quines</textarea><br><br><!--Aquest element defineix un camp amb multi línies-->
+        
+        <label>L'estàndard d'HTML que més m'agrada:</label>
+        <select><!--Aquest element defineix una llista desplegable-->
+            <option>HTML 4.01</option><!--Definim options de la llista desplegable-->
+            <option>HTML 1.0</option>
+            <option selected>HTML5</option><!--Fem que HTML5 surti com a predeterminat-->
+        </select>
+        </form>
+
+    </body>
+
+
+
+</html>

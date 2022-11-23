@@ -1,0 +1,39 @@
+
+.quadrat1 {
+    position: absolute;/*Asignem la posició del quadrat*/
+    width: 160px;/*Asignem l'amplada del quadrat en pixels*/
+    height: 120px;/*Asignem l'altura del quadrat en pixels*/
+    background-color:cornflowerblue;/*Escollim el color del quadrat*/
+    border: 1px solid black;/*Fem que el quadrat tinqui una vora negra*/
+    top: 40px;/*Asignem la distancia del quadrat amb un costat*/
+    left: 20px;
+}
+.quadrat2 {
+    width: 40px;
+    height: 40px;
+    background-color:yellow;
+    border: 1px solid black;
+    margin-left: 20px;/*Afegim marges*/
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.quadrat3 {
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    background-color:red;
+    border: 1px solid black;
+    left: 100px;
+    top: 140px ;
+}
+.quadrat4 {
+    width: 40px;
+    height: 40px;
+    background-color:lightgreen;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-right: 20px;
+}

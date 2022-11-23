@@ -1,0 +1,44 @@
+
+.cuadrat {
+    position: absolute;
+    width: 160px;           /* Ancho de 150 píxeles */
+    height: 120px;          /* Alto de 150 píxeles */
+    background: rgb(85, 212, 56);        /* Fondo de color rojo */
+    border: 1px solid #000; /* Borde color negro y de 1 píxel de grosor */
+    margin-left: 100px;
+    margin-top: 140px;
+
+    
+
+  }
+  
+.cuadrat2 {
+    position: relative;
+    width: 40px;           
+    height: 40px;         
+    background: rgb(195, 22, 22);       
+    border: 1px solid #000; 
+    margin-left: 100px;
+    margin-top: 60px;
+    }
+    
+.cuadrat3 {
+    position: absolute;
+    width: 160px;           
+    height: 120px;          
+    background: rgb(206, 255, 47);        
+    border: 1px solid #000; 
+    margin-left: 20px;
+    margin-top: 40px;
+    
+  }
+  
+.cuadrat4 {
+    position: relative;
+    width: 40px;          
+    height: 40px;          
+    background: rgb(0, 38, 229);        
+    border: 1px solid #000;
+    left: 20px;
+    margin-top: 20px;
+    }

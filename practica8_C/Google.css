@@ -1,0 +1,91 @@
+body {
+    font: 16px Google Sans,Roboto,RobotoDraft;
+}
+body,
+html {
+    height: 100%;
+}
+
+.header {
+    color: black;
+    background-color: white; 
+    padding: 20px 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.menu-esquerra {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    margin: 0 5px;
+    cursor: pointer; 
+    align-self: center;
+}
+
+.info-google {
+    margin: 0 15px 0 15px;
+    
+}
+
+.botiga {
+    margin: 0 15px 0 15px;
+    
+}
+
+.menu-dreta {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 330px;
+}
+
+.Gmail {
+    align-self: center;
+    width: 60px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Gmail:hover {
+    TEXT-DECORATION: underline;
+}
+
+.images {
+    align-self: center;
+    width: 75px;
+    cursor: pointer;
+}
+
+.logo {
+    align-self: center;
+    width: 35px;
+    cursor: pointer;
+}
+
+
+.login {
+    color: #fff;
+    background: #1A73E8;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    align-self: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Google {
+    position: relative;
+    display: block;
+    margin-top: 90px;
+    
+}
+
+.googleLogo {
+
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}

@@ -1,0 +1,92 @@
+
+  .body{
+    font: 10px "Google Sans", Roboto;
+
+  }
+  .body,      html {
+      height: 100%;
+  }
+  
+  .menu-container {
+    color: black;
+    background-color: #ffffff; 
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+
+  }
+
+
+  .menu {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    margin: 0 5px;
+    cursor:pointer;
+  }
+
+  .sobre_google{
+    align-self: center;
+    width: 100px;
+  }
+
+  .botiga{
+    align-self: center;
+   
+
+   
+  }
+  .menu2 {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-left: 60px;
+
+  }
+
+
+  .gmail{
+    align-self: center;
+    width: 60px;
+    text-decoration: none;
+    cursor: pointer;
+
+
+  }
+  .gmail:hover {
+    CURSOR: hand;
+    TEXT-DECORATION: underline;
+    }
+     
+.imatges{ 
+    align-self: center;
+    width: 75px;
+}
+
+.puntitos{
+    align-self: center;
+    width: 30px;
+}
+.inicia {
+    color: #fff;
+    font: 14px "Google Sans", Roboto;
+    background: #1A73E8;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    border-radius: 5px;
+    
+  }
+
+.google{
+    width: auto;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 92px;
+    margin-bottom: 20px;
+
+  }

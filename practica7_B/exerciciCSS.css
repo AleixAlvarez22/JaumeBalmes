@@ -1,19 +1,19 @@
 
 .cuadrat {
-    position: absolute;
-    width: 160px;           /* Ancho de 150 píxeles */
-    height: 120px;          /* Alto de 150 píxeles */
-    background: rgb(85, 212, 56);        /* Fondo de color rojo */
-    border: 1px solid #000; /* Borde color negro y de 1 píxel de grosor */
-    margin-left: 100px;
-    margin-top: 140px;
+    position: absolute; /* Fa que la posicio sigui absoluta a l'espai que te*/
+    width: 160px;           /* Amplada del cuadrad 160px */
+    height: 120px;          /* Altura del cuadrad 120px  */
+    background: rgb(85, 212, 56);        /* Fons de color verd */
+    border: 1px solid #000; /* Vora negra d'un pixel */
+    margin-left: 100px;  /* Posa els marges */
+    margin-top: 140px; 
 
     
 
   }
   
 .cuadrat2 {
-    position: relative;
+    position: relative; /* Fa que la posicio sigui relativa a l'espai que te*/
     width: 40px;           
     height: 40px;         
     background: rgb(195, 22, 22);       

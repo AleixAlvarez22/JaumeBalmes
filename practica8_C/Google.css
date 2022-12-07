@@ -1,15 +1,13 @@
-body {
-    font: 16px Google Sans,Roboto,RobotoDraft;
+*{
+    margin: 0px;
+    bottom: 0px;
 }
-body,
-html {
-    height: 100%;
-}
+
 
 .header {
     color: black;
     background-color: white; 
-    padding: 20px 0;
+    padding: 5px 0;
     display: flex;
     justify-content:space-between;
 }
@@ -22,24 +20,32 @@ html {
     padding: 5px;
     margin: 0 5px;
     cursor: pointer; 
-    align-self: center;
+    align-items: center;
 }
 
 .info-google {
-    margin: 0 15px 0 15px;
+    margin-left: 5px;
     
 }
 
-.botiga {
-    margin: 0 15px 0 15px;
-    
+.info-google:hover {
+    TEXT-DECORATION: underline;
 }
+
+.botiga {
+    margin: 0 0 0 10px;   
+}
+
+.botiga:hover {
+    TEXT-DECORATION: underline;
+}
+
 
 .menu-dreta {
     border: 1px solid #fff;
     display: flex;
     justify-content: flex-end;
-    min-width: 330px;
+    min-width: 350px;
 }
 
 .Gmail {
@@ -57,6 +63,10 @@ html {
     align-self: center;
     width: 75px;
     cursor: pointer;
+}
+
+.images:hover {
+    TEXT-DECORATION: underline;
 }
 
 .logo {
@@ -88,4 +98,228 @@ html {
     display: flex;
     justify-content: center;
     margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.Barra-Buscadora {
+    color: black;
+    background-color: white;
+    display: flex;
+    position: relative;
+    padding: 5px 8px 0 14px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    min-width: 484px;
+    width: 584px;
+    height: 39px;
+    border-width: 1px;
+    margin: auto;
+    align-items: center;    
+}
+
+.texto {
+    margin-left: 14px;
+    margin-right: 260px;
+    cursor:auto;
+}
+
+.lupa {
+    margin-left: 1px;
+}
+
+.teclado {
+    margin-right: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.micro {
+    
+    justify-self: flex-end;
+    cursor: pointer;
+}
+
+
+.debajo-barra {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.cerca-de-google {
+
+    color: #3c4043;
+    background: #f8f9fa;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    align-self: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.segur-que-tinc-sort {
+    color: #3c4043;
+    background: #f8f9fa;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    align-self: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.disponible {
+    margin-top: 30px;
+    display: flex;
+    cursor: pointer; 
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.Google-disponible-en {
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: small;
+    text-align: center;
+    
+}
+
+.idiomas {
+    padding-left: 6px;
+    color: #1a0dab;
+    font-size: small;
+    text-align: center;
+    font-family: arial,sans-serif;
+    
+    
+}
+
+.footer {
+    bottom: 0;
+    position: absolute;
+  
+}
+
+.peu-pagina1 {
+    padding: 15px 30px;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 15px;
+    color: #70757a;
+    display: block;
+    background-color: rgb(242, 242, 242);
+    margin-top: 235px;
+}
+
+.espanya {
+    font-family: arial,sans-serif;
+}
+
+
+.peu-pagina2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: rgb(242, 242, 242);
+    font-size: 15px;   
+}
+
+.pp2-p1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 450px;
+    height: 46px;
+}
+.informacio {
+    color: rgb(112, 117, 122);
+    display:block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 16px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.publicitat {
+    color: rgb(112, 117, 122);
+    display:block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 16px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.empresa {
+    color: rgb(112, 117, 122);
+    display:block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 16px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.funcionament {
+    color: rgb(112, 117, 122);
+    display:block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 16px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.pp2-p2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 350px;
+    height: 46px;
+}
+
+.privadesa {
+    color: rgb(112, 117, 122);
+    display:block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 16px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.condicions {
+    color: rgb(112, 117, 122);
+    display:block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 16px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.configuracio {
+    color: rgb(112, 117, 122);
+    display:block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 16px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
 }

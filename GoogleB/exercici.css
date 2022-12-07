@@ -1,0 +1,31 @@
+.body{
+   font: 10px "Google Sans", Roboto;
+}
+.gmail {
+position: absolute;
+right: 325px;
+top: 12px;
+}
+.Imatges{
+    position: absolute;
+    top: 12px;
+    right: 250px;
+}
+.menu{
+    position:absolute;
+    right: 210px;
+}
+.sesio{
+    color: white;
+    position:absolute;
+    text-align:center;
+    border: 1px solid blue;
+    border-radius: 5px;
+    right: 90px;
+    width: 109px;
+    height: 39px;
+    background-color: dodgerblue;
+}
+.inicia{
+    margin: 7px;
+}

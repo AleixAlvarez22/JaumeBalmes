@@ -3,9 +3,7 @@
     font: 10px "Google Sans", Roboto;
 
   }
-  .body,      html {
-      height: 100%;
-  }
+
   
   .menu-container {
     color: black;
@@ -13,37 +11,33 @@
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
-    min-width: 100px;
-
   }
 
 
   .menu {
-    border: 1px solid #fff;
-    display: flex;
-    justify-content: flex-start;
-    padding: 5px;
-    margin: 0 5px;
-    cursor:pointer;
+      border: 1px solid #fff;
+      display: flex;
+      justify-content: flex-start;
+      padding: 5px;
+      margin: 0 5px;
+      cursor: pointer; 
+      align-items: center;
+  
   }
 
   .sobre_google{
-    align-self: center;
-    width: 100px;
+    margin: 0 10px 0 15px;
   }
 
   .botiga{
-    align-self: center;
-   
-
+    margin-left: 0 0 0 15px;
    
   }
   .menu2 {
-    border: 1px solid #fff;
     display: flex;
     justify-content: flex-end;
     cursor: pointer;
-    margin-left: 60px;
+    min-width: 320px;
 
   }
 
@@ -74,7 +68,7 @@
     color: #fff;
     font: 14px "Google Sans", Roboto;
     background: #1A73E8;
-    margin: 0px 8px;
+    margin: 9px 8px;
     padding: 9px 23px;
     border-radius: 5px;
     
@@ -83,6 +77,7 @@
 .google{
     width: auto;
   }
+
   .logo {
     display: flex;
     justify-content: center;
@@ -90,3 +85,218 @@
     margin-bottom: 20px;
 
   }
+
+  .barra-buscadora {
+    display: flex;
+    position: relative;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff; 
+    padding: 10px 10px;
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    border-radius: 200px;
+    width: 584px;
+  
+}
+
+.buscador{
+   display: flex;
+   position: relative;
+   width:700px;
+   max-width:600px;
+   min-width: 10px;
+   padding: 3px 5px 0 10px;
+}
+
+.lupa{
+  margin-left:1px;
+  margin-top: 2px;
+
+}
+.micro{
+  margin-left:6px;
+  margin-top: 2px;
+}
+.teclat{
+  margin-left:10px;
+  margin-top: 2px;
+
+}
+
+.text_cerca{
+  flex:100%; 
+  min-width: 10px;
+}
+
+.debajo-barra {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.cerca-de-google {
+
+  color: #3c4043;
+  background: #f8f9fa;
+  margin: 0px 8px;
+  padding: 9px 23px;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.segur-que-tinc-sort {
+  color: #3c4043;
+  background: #f8f9fa;
+  margin: 0px 8px;
+  padding: 9px 23px;
+  align-self: center;
+  border-radius: 5px;
+
+}
+
+.disponible {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Google-disponible-en {
+  color: #3c4043;
+  display: inline-block;
+  line-height: 28px;
+  font-family: arial,sans-serif;
+  font-size: small;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.idiomas {
+  padding: 0 3px 0 8px;
+  color: #1a0dab;
+  line-height: 28px;
+  font-size: small;
+  text-align: center;
+  font-family: arial,sans-serif;
+}
+
+
+
+
+.barra-espanya{
+  padding: 15px 30px;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 15px;
+  color: #70757a;
+  display: block;
+  background-origin: padding-box;
+  background-color: rgb(242, 242, 242);
+}
+
+.espanya {
+  font-family: arial,sans-serif;
+}
+
+.barra-final {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-origin: padding-box;
+  background-color: rgb(242, 242, 242);
+  font-size: 15px;
+}
+
+
+.informacio {
+  color: rgb(112, 117, 122);
+  display:block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 16px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.publicitat {
+  color: rgb(112, 117, 122);
+  display:block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 16px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.empresa {
+  color: rgb(112, 117, 122);
+  display:block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 16px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+.funcionament {
+  color: rgb(112, 117, 122);
+  display:block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 16px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.barra-final2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 350px;
+  height: 46px;
+}
+
+.privadesa {
+  color: rgb(112, 117, 122);
+  display:block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 16px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.condicions {
+  color: rgb(112, 117, 122);
+  display:block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 16px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.configuracio {
+  color: rgb(112, 117, 122);
+  display:block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 16px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}

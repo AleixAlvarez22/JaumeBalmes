@@ -1,17 +1,22 @@
 *{
-    margin: 0px;
-    bottom: 0px;
+    margin: 0;
+    padding: 0;
 }
 
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: arial,sans-serif;
+}
 
 .header {
     color: black;
     background-color: white; 
-    padding: 5px 0;
+    padding: 10px 0;
     display: flex;
     justify-content:space-between;
 }
-
 
 .menu-esquerra {
     border: 1px solid #fff;
@@ -21,10 +26,11 @@
     margin: 0 5px;
     cursor: pointer; 
     align-items: center;
+    font-size: 14px;
 }
 
 .info-google {
-    margin-left: 5px;
+    margin-left: 12px;
     
 }
 
@@ -33,26 +39,28 @@
 }
 
 .botiga {
-    margin: 0 0 0 10px;   
+    margin: 0 0 0 16px;   
 }
 
 .botiga:hover {
     TEXT-DECORATION: underline;
 }
 
-
 .menu-dreta {
     border: 1px solid #fff;
     display: flex;
     justify-content: flex-end;
     min-width: 350px;
+    margin-right: 10px;
 }
 
 .Gmail {
     align-self: center;
-    width: 60px;
+    width: 50px;
     cursor: pointer;
     text-decoration: none;
+    font-size: 13px;
+
 }
 
 .Gmail:hover {
@@ -63,6 +71,7 @@
     align-self: center;
     width: 75px;
     cursor: pointer;
+    font-size: 13px;
 }
 
 .images:hover {
@@ -84,12 +93,13 @@
     align-self: center;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .Google {
     position: relative;
     display: block;
-    margin-top: 90px;
+    margin-top: 125px;
     
 }
 
@@ -113,13 +123,14 @@
     width: 584px;
     height: 39px;
     border-width: 1px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;    
 }
 
 .texto {
     margin-left: 14px;
-    margin-right: 260px;
+    margin-right: 440px;
     cursor:auto;
 }
 
@@ -129,29 +140,33 @@
 
 .teclado {
     margin-right: 18px;
-    margin-left: 10px;
     cursor: pointer;
 }
 
-.micro {
-    
+.micro {  
+    justify-self: flex-end;
+    cursor: pointer;
+    margin-right: 18px;
+}
+
+.camara {
     justify-self: flex-end;
     cursor: pointer;
 }
-
 
 .debajo-barra {
     display: flex;
     justify-content: center;
     margin-top: 28px;
+    font-size: 14px;
 }
 
 .cerca-de-google {
 
     color: #3c4043;
     background: #f8f9fa;
-    margin: 0px 8px;
-    padding: 9px 23px;
+    margin: 0px 15px;
+    padding: 12px 23px;
     align-self: center;
     border-radius: 5px;
     cursor: pointer;
@@ -160,8 +175,8 @@
 .segur-que-tinc-sort {
     color: #3c4043;
     background: #f8f9fa;
-    margin: 0px 8px;
-    padding: 9px 23px;
+    margin: 0px 8x;
+    padding: 12px 23px;
     align-self: center;
     border-radius: 5px;
     cursor: pointer;
@@ -171,7 +186,6 @@
 .disponible {
     margin-top: 30px;
     display: flex;
-    cursor: pointer; 
     align-self: center;
     justify-content: center;
     
@@ -179,7 +193,6 @@
 
 .Google-disponible-en {
     color: #3c4043;
-    font-family: arial,sans-serif;
     font-size: small;
     text-align: center;
     
@@ -190,15 +203,11 @@
     color: #1a0dab;
     font-size: small;
     text-align: center;
-    font-family: arial,sans-serif;
-    
-    
+    cursor: pointer; 
 }
 
-.footer {
-    bottom: 0;
-    position: absolute;
-  
+footer {
+    margin-top: auto;  
 }
 
 .peu-pagina1 {
@@ -208,13 +217,7 @@
     color: #70757a;
     display: block;
     background-color: rgb(242, 242, 242);
-    margin-top: 235px;
 }
-
-.espanya {
-    font-family: arial,sans-serif;
-}
-
 
 .peu-pagina2 {
     display: flex;
@@ -232,10 +235,10 @@
     width: 450px;
     height: 46px;
 }
+
 .informacio {
     color: rgb(112, 117, 122);
     display:block;
-    font-family: arial, sans-serif;
     font-size: 14px;
     height: 16px;
     padding-bottom: 15px;
@@ -247,7 +250,6 @@
 .publicitat {
     color: rgb(112, 117, 122);
     display:block;
-    font-family: arial, sans-serif;
     font-size: 14px;
     height: 16px;
     padding-bottom: 15px;
@@ -259,7 +261,6 @@
 .empresa {
     color: rgb(112, 117, 122);
     display:block;
-    font-family: arial, sans-serif;
     font-size: 14px;
     height: 16px;
     padding-bottom: 15px;
@@ -271,7 +272,6 @@
 .funcionament {
     color: rgb(112, 117, 122);
     display:block;
-    font-family: arial, sans-serif;
     font-size: 14px;
     height: 16px;
     padding-bottom: 15px;
@@ -283,15 +283,14 @@
 .pp2-p2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 350px;
+    justify-content: space-around;
+    width: 330px;
     height: 46px;
 }
 
 .privadesa {
     color: rgb(112, 117, 122);
     display:block;
-    font-family: arial, sans-serif;
     font-size: 14px;
     height: 16px;
     padding-bottom: 15px;
@@ -303,7 +302,6 @@
 .condicions {
     color: rgb(112, 117, 122);
     display:block;
-    font-family: arial, sans-serif;
     font-size: 14px;
     height: 16px;
     padding-bottom: 15px;
@@ -315,7 +313,6 @@
 .configuracio {
     color: rgb(112, 117, 122);
     display:block;
-    font-family: arial, sans-serif;
     font-size: 14px;
     height: 16px;
     padding-bottom: 15px;

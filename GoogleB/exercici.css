@@ -1,9 +1,9 @@
-body{
+body{/*Afegim la tipografia de Google*/
    font: 16px "Google Sans", Roboto;
 }
-.gmail {
-position: absolute;
-right: 325px;
+.gmail {/*Afegim informació*/
+position: absolute;/*Col·loquem l'informació al costat del seu contenidor més proper*/
+right: 325px;/*Ajustem la seva posició*/
 top: 12px;
 }
 .Imatges{
@@ -15,16 +15,16 @@ top: 12px;
     position:absolute;
     right: 210px;
 }
-.sesio{
-    color: white;
+.sesio{/*Afegim el botó d'inici de sessió*/
+    color: white;/*Color de la lletra*/
     position:absolute;
-    text-align:center;
-    border: 1px solid blue;
+    text-align:center;/*Posició del text*/
+    border: 1px solid blue;/*Color i mida de la vora*/
     border-radius: 5px;
     right: 90px;
     width: 109px;
     height: 39px;
-    background-color: dodgerblue;
+    background-color: dodgerblue;/*Color del requadre*/
 }
 .inicia{
     margin: 7px;

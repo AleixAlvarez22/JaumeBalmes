@@ -1,14 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-}
+}/* Modifica tota la pagina */
 
 body{
-    min-height: 100vh;
+    min-height: 100vh; /* Definim una altura minima */
     display: flex;
     flex-direction: column;
     font-family: arial,sans-serif;
-}
+} /* Modifica tot el body */
 
 .header {
     color: black;
@@ -16,7 +16,7 @@ body{
     padding: 10px 0;
     display: flex;
     justify-content:space-between;
-}
+} /* Modifica el header */
 
 .menu-esquerra {
     border: 1px solid #fff;
@@ -208,7 +208,7 @@ body{
 
 footer {
     margin-top: auto;  
-}
+} /* Modifica el footer */
 
 .peu-pagina1 {
     padding: 15px 30px;

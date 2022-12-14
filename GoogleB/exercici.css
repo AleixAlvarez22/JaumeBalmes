@@ -29,3 +29,60 @@ top: 12px;
 .inicia{
     margin: 7px;
 }
+.google{
+    text-align: center;
+    padding: 170px;
+}
+.foto1{
+    position: absolute;
+    top: 275px;
+    left: 350px;
+    justify-content: space-around;
+}
+.foto2{
+    position: absolute;
+    top: 275px;
+    left: 700px; 
+    justify-content: space-around;
+}
+.foto3{
+    position: absolute;
+    top: 275px;
+    right: 350px;
+    justify-content: space-around;
+}
+.Espanya {
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    }
+.Informació{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+.Publicitat{
+    position: absolute;
+    left: 130px;
+    bottom: 20px;
+}
+.Empresa{
+    position: absolute;
+    left: 230px;
+    bottom: 20px;
+}
+.Configuració{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+.Condicions{
+    position: absolute;
+    right: 130px;
+    bottom: 20px;
+}
+.Privadesa{
+position: absolute;
+    right: 230px;
+    bottom: 20px;
+}

@@ -1,6 +1,13 @@
 
-  .body{
-    font: 10px "Google Sans", Roboto;
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
   }
 
@@ -115,15 +122,21 @@
   margin-top: 2px;
 
 }
+.teclat{
+  margin-left:15px;
+  margin-top: 10px;
+
+}
 .micro{
-  margin-left:6px;
+  margin-left:10px;
   margin-top: 2px;
 }
-.teclat{
-  margin-left:10px;
+.camara{
+  margin-left:15px;
   margin-top: 2px;
 
 }
+
 
 .text_cerca{
   flex:100%; 
@@ -140,7 +153,7 @@
 .cerca-de-google {
 
   color: #3c4043;
-  background: #f8f9fa;
+  background: #fafaf8;
   margin: 0px 8px;
   padding: 9px 23px;
   align-self: center;
@@ -161,6 +174,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  
 }
 
 .Google-disponible-en {
@@ -174,24 +188,23 @@
 }
 
 .idiomas {
-  padding: 0 3px 0 8px;
+  padding-left: 6px;
   color: #1a0dab;
-  line-height: 28px;
   font-size: small;
   text-align: center;
-  font-family: arial,sans-serif;
+  cursor: pointer;
+  align-items: center;
 }
 
 
-
+footer{
+  margin-top: auto;
+}
 
 .barra-espanya{
   padding: 15px 30px;
-  border-bottom: 1px solid #f2f2f2;
   font-size: 15px;
   color: #70757a;
-  display: block;
-  background-origin: padding-box;
   background-color: rgb(242, 242, 242);
 }
 
@@ -201,7 +214,6 @@
 
 .barra-final {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 20px;
   background-origin: padding-box;
@@ -212,7 +224,6 @@
 
 .informacio {
   color: rgb(112, 117, 122);
-  display:block;
   font-family: arial, sans-serif;
   font-size: 14px;
   height: 16px;
@@ -224,7 +235,6 @@
 
 .publicitat {
   color: rgb(112, 117, 122);
-  display:block;
   font-family: arial, sans-serif;
   font-size: 14px;
   height: 16px;
@@ -236,7 +246,6 @@
 
 .empresa {
   color: rgb(112, 117, 122);
-  display:block;
   font-family: arial, sans-serif;
   font-size: 14px;
   height: 16px;
@@ -247,7 +256,6 @@
 }
 .funcionament {
   color: rgb(112, 117, 122);
-  display:block;
   font-family: arial, sans-serif;
   font-size: 14px;
   height: 16px;
@@ -259,7 +267,6 @@
 
 .barra-final2 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   width: 350px;
   height: 46px;
@@ -267,7 +274,6 @@
 
 .privadesa {
   color: rgb(112, 117, 122);
-  display:block;
   font-family: arial, sans-serif;
   font-size: 14px;
   height: 16px;
@@ -279,7 +285,6 @@
 
 .condicions {
   color: rgb(112, 117, 122);
-  display:block;
   font-family: arial, sans-serif;
   font-size: 14px;
   height: 16px;
@@ -291,7 +296,6 @@
 
 .configuracio {
   color: rgb(112, 117, 122);
-  display:block;
   font-family: arial, sans-serif;
   font-size: 14px;
   height: 16px;
